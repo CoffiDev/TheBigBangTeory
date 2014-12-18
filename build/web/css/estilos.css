@@ -1,0 +1,234 @@
+
+		body
+		{
+			background: url("../img/fondo1.jpg");
+		}
+
+		header
+		{
+			background: url("../img/logo.jpg") no-repeat 0% center, 
+			url("../img/fondo2.jpg");
+			margin: 10px 10px;
+			background-size: 100px,100%;
+			border-radius: 10px;
+			height: 100px;
+		}
+		header h1
+		{
+			font-size: 300%;
+			margin: 0px 0px 0px 10%;
+			width: 40%;
+			color: white;
+			border-radius: 5px;
+			padding: 2px; 
+
+
+		}
+		
+		header h1, header nav
+		{
+			display: inline-block;
+			vertical-align: top;
+		} 
+
+
+		header nav ul
+		{
+			list-style: none;
+
+		}
+		header nav ul li
+		{
+			
+			display: inline-block; 
+			font-size: 20px;
+			margin: 5px 5px;
+			text-align: top;			
+
+		}
+				
+		nav ul li a
+		{
+			background: black;
+			border-radius: 0.5em;
+			color: white;
+			display: inline-block;
+			margin: 0 1em 0 0;
+			padding: 0.5em 1em;
+			text-decoration: none;
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+		}
+
+		nav ul li a:hover
+		 {
+			background: white;
+			color: black;
+			transform:  scale(1.2) rotate(-5deg);
+			-webkit-transform: scale(1.2) rotate(-5deg);
+			-moz-transform: scale(1.2) rotate(-5deg);
+			//text-decoration: none;
+
+		}
+
+		#aside 
+		{
+			background: red;
+			width: 15%;
+			margin: 10px 10px;
+			border-radius: 5px;
+			position: fixed;
+		}
+
+		#spersonajes
+		{
+
+			transition: all 1s ease;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+		}
+		#per
+		{
+			margin-left: 10px;	
+			color: white;
+		}
+		
+		#aside  ul
+		{
+			list-style: none;
+			//float: left;
+			margin-left: 0px;
+			background: red;
+
+		}
+
+		#aside ul li
+		{
+
+			margin-bottom: 5px;
+			margin-left: -20px;
+			text-align: left;
+		}
+
+		#aside ul li a
+		{
+			font-size: 20px;
+			padding: 5px;
+			color: white;
+			text-decoration: none;
+			transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-webkit-transition: all 1s ease;
+			margin-left: 0px;
+			text-align: left;
+		}
+
+		#aside ul li a:hover
+		{
+			background: yellow;
+			border-radius: 2px;
+			color: black;
+			//display: inline-block;
+			
+		}/**/
+
+		#aside, .personajes
+		{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		#aside figure
+		{
+			margin-left: 0px;
+			width: 67%;
+		}
+
+		#perimg
+		{
+			
+			width: 150%;
+			height: auto;
+			
+		}
+
+		.personajes
+		{
+			width: 80%;
+			background: white;
+			color: black;
+			border-radius: 5px;
+			padding: 5px 10px;
+			margin-left: 17%;
+		}
+		.desc
+		{
+			text-align: left;
+
+		}
+		.nombre 
+		{
+			text-align: center;
+			font-size: 30px;
+			color: red;
+
+		}
+
+		.cuadro
+		{
+			margin: 0px 10px 0px 10px;
+			border-radius: 7px;
+			background: orange;
+			padding: 25px;
+		}
+
+		.foto
+		{
+			text-align: center;
+		}
+		
+		.personajesimg
+		{
+			height: 400px;
+			width: 335px;
+		}
+
+		#sgaleria
+		{
+			background: red;
+			//height: 300px;
+			margin: 3% 5%;
+			width: 90%;
+			border-radius: 20px;
+		}
+
+		.lagaleria
+		{
+			width: 100%;
+		}
+
+		#estilogal
+		{
+			border-radius: 5px;
+			padding: 7px;
+			background-color: yellow;
+
+		}
+
+		#estilogal h2
+		{
+			text-align: center;
+			font-size: 30px;
+			padding: 2px;
+			background-color: red;
+			color: white;
+			border-radius: 15px;
+		}
+
+		#Imagenes
+		{
+			width: 90%;
+			height: auto;
+		}
+
